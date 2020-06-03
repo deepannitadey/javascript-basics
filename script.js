@@ -28,5 +28,18 @@ var if = 23;
 */
 
 var firstName = "Deepannita";
-var age = 28;
+var age = 24;
 console.log(firstName + " " + age);
+
+var job, isMarried;
+job = "Coder";
+isMarried = false;
+console.log(
+  firstName +
+    " is a " +
+    age +
+    " year old " +
+    job +
+    ". Is she married?" +
+    isMarried
+);
