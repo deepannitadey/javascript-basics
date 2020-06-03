@@ -80,3 +80,11 @@ var deepannitaOlder = ageDeepannita > ageBhaswati;
 console.log(deepannitaOlder);
 var deepannitaYounger = ageDeepannita < ageBhaswati;
 console.log(deepannitaYounger);
+
+// TypeOf Operator
+
+console.log(typeof deepannitaYounger);
+console.log(typeof ageDeepannita);
+console.log(typeof " Deepannita is younger than Bhaswati");
+var x;
+console.log(typeof x);
