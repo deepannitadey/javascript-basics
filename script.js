@@ -1,6 +1,6 @@
 /**********************************
  * Variables and Data types*/
-
+/*
 var firstName = "Deepannita";
 console.log(firstName);
 
@@ -25,3 +25,8 @@ var _2years = 2;
 var $name = "Deepannita";
 var johnMark = "John and Mark";
 var if = 23;
+*/
+
+var firstName = "Deepannita";
+var age = 28;
+console.log(firstName + " " + age);
