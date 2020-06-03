@@ -1,3 +1,6 @@
+/**********************************
+ * Variables and Data types*/
+
 var firstName = "Deepannita";
 console.log(firstName);
 
