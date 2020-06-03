@@ -26,7 +26,7 @@ var $name = "Deepannita";
 var johnMark = "John and Mark";
 var if = 23;
 */
-
+// Type coercion
 var firstName = "Deepannita";
 var age = 24;
 console.log(firstName + " " + age);
@@ -35,6 +35,18 @@ var job, isMarried;
 job = "Coder";
 isMarried = false;
 console.log(
+  firstName +
+    " is a " +
+    age +
+    " year old " +
+    job +
+    ". Is she married?" +
+    isMarried
+);
+// Variable Mutation
+age = "twenty four";
+job = "HR Recruiter";
+alert(
   firstName +
     " is a " +
     age +
