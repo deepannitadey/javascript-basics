@@ -15,3 +15,10 @@ console.log(job);
 
 var gender;
 console.log(gender);
+
+// Variable Naming Rules
+
+var _2years = 2;
+var $name = "Deepannita";
+var johnMark = "John and Mark";
+var if = 23;
