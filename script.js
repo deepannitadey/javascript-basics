@@ -1,6 +1,6 @@
 /**********************************
  * Variables and Data types*/
-/*
+
 var firstName = "Deepannita";
 console.log(firstName);
 
@@ -25,7 +25,7 @@ var _2years = 2;
 var $name = "Deepannita";
 var johnMark = "John and Mark";
 var if = 23;
-*/
+
 // Type coercion
 var firstName = "Deepannita";
 var age = 24;
@@ -88,3 +88,16 @@ console.log(typeof ageDeepannita);
 console.log(typeof " Deepannita is younger than Bhaswati");
 var x;
 console.log(typeof x);
+
+var now = 2018;
+var yearDeepannita = 1996;
+var fullAge = 18;
+
+// Use Multiple Operators
+var isFullAge = now - yearDeepannita >= fullAge;
+console.log(isFullAge);
+
+var ageDeepannita = now - yearDeepannita;
+var ageBhaswati = 26;
+var average = (ageDeepannita + ageBhaswati) / 2;
+console.log(average);
