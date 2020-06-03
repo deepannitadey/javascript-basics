@@ -55,3 +55,8 @@ alert(
     ". Is she married?" +
     isMarried
 );
+
+// Use prompt command
+
+var lastName = prompt("what is her last name?");
+console.log(firstName + " " + lastName);
