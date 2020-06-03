@@ -60,3 +60,23 @@ alert(
 
 var lastName = prompt("what is her last name?");
 console.log(firstName + " " + lastName);
+
+// Basic Operators
+
+var now, yearDeepannita, yearBhaswati;
+now = 2020;
+yearDeepannita = now - 24;
+yearBhaswati = now - 26;
+console.log(yearDeepannita);
+console.log(now + 2);
+console.log(now * 2);
+console.log(now / 10);
+
+// logical Operators
+
+var ageDeepannita = 24;
+var ageBhaswati = 26;
+var deepannitaOlder = ageDeepannita > ageBhaswati;
+console.log(deepannitaOlder);
+var deepannitaYounger = ageDeepannita < ageBhaswati;
+console.log(deepannitaYounger);
