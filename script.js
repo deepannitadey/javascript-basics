@@ -52,7 +52,7 @@ alert(
     age +
     " year old " +
     job +
-    ". Is she married?" +
+    ". Is she married? " +
     isMarried
 );
 
@@ -120,3 +120,14 @@ x++;
 console.log(x);
 x--;
 console.log(x);
+
+// If-else Statement
+
+var firstName = "John";
+var civilStatus = "single";
+
+if (civilStatus === "married") {
+  console.log(firstName + " is married");
+} else {
+  console.log(firstName + " will hopefully marry soon.");
+}
